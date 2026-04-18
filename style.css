@@ -37,12 +37,26 @@ p {
 
 }
 
-.pdescripcion {
-    margin-left: 100px;
+/* Padding responsivo para descripción */
+.pdescripcion-responsive {
+    padding-left: 0;
 }
 
-.pitem {
-    margin-left: 200px;
+@media (min-width: 768px) {
+    .pdescripcion-responsive {
+        padding-left: 100px;
+    }
+}
+
+/* Padding responsivo para items */
+.pitem-responsive {
+    padding-left: 0;
+}
+
+@media (min-width: 768px) {
+    .pitem-responsive {
+        padding-left: 200px;
+    }
 }
 
 
