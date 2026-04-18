@@ -68,6 +68,12 @@ p {
     object-fit: contain;
 }
 
+@media (max-width: 768px) {
+    .logo-hero {
+        width: 100%;
+    }
+}
+
 /* Contenedor de Imágenes Responsivas */
 .image-container {
     width: 100%;
@@ -95,6 +101,17 @@ p {
     padding-bottom: 60px;
 
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .interest-section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .inicio {
+        padding: 30px 15px;
+    }
 }
 
 
