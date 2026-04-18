@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 18px;          /* aumenta base */
+    color: #1a2b4a;
+    line-height: 1.7;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 40px;
+    background: #ffffff;
+}
+
+.content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Textos */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: justify;      
+    margin-bottom: 15px;
+}
+
+/* Logo */
+.logo-hero {
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+    object-fit: contain;
+}
+
+/* Interés */
+.interest-section {
+    padding: 60px;
+    text-align: center;
+}
+
+
+.btn-interest {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: #85A7A1;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-interest:hover {
+    background: #1f6375;
+}
+
+/* Footer */
+footer {
+    background: #363F4A;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+}
+
+footer p {
+    text-align: center;
+}
