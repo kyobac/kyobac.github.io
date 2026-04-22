@@ -20,6 +20,14 @@ body {
 
 }
 
+.hover:hover {
+    background: #1f6375;
+}
+
+.encuentranos {
+    text-align: right;
+    padding-right: 15px;
+}
 
 .content {
     margin: 0 auto;
@@ -33,11 +41,9 @@ h2 {
 p {
     text-align: justify;
     margin-bottom: 15px;
-    /* aumenta base */
 
 }
 
-/* Padding responsivo para descripción */
 .pdescripcion-responsive {
     padding-left: 0;
 }
@@ -55,7 +61,7 @@ p {
 
 @media (min-width: 768px) {
     .pitem-responsive {
-        padding-left: 200px;
+        padding-left: 150px;
     }
 }
 
@@ -108,7 +114,7 @@ p {
         padding-left: 15px;
         padding-right: 15px;
     }
-    
+
     .inicio {
         padding: 30px 15px;
     }
